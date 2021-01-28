@@ -1,0 +1,9 @@
+.list {
+  list-style: none;
+}
+
+.photo-collection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

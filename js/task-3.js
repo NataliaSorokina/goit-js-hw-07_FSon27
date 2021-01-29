@@ -22,8 +22,8 @@ const images = [
   },
 ];
 
-const photoGallery = document.querySelector('ul#gallery');
-photoGallery.classList.add('photo-collection', 'list');
+const listRef = document.querySelector('ul#gallery');
+listRef.classList.add('photo-collection', 'list');
 
-const imgList = images.map(image => photoGallery.insertAdjacentHTML('beforeEnd', `<li><img src='${image.url}' alt='${image.alt}' width=200px></li>`));
+const itemsRef = images.map(image => listRef.insertAdjacentHTML('beforeEnd', `<li><img src='${image.url}' alt='${image.alt}' width=200px></li>`));
 

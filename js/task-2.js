@@ -16,6 +16,6 @@ const liRef = ingredients.map(ingredient => {
     return itemRef;
 });
 
-const ingredientsList = document.querySelector('ul#ingredients');
-ingredientsList.append(...liRef);
-console.log(ingredientsList);
+const listRef = document.querySelector('ul#ingredients');
+listRef.append(...liRef);
+console.log(listRef);
